@@ -180,9 +180,9 @@ $utilities : (
             '3':3px,
             '4':4px,
             '5':5px,
-        )
-    )
-    
+        ),
+    ),
+   
 );
 
 @each $property, $map in $utilities {
@@ -200,4 +200,17 @@ $utilities : (
             }
         }
     }
+};
+
+$position : (
+    'fixed':fixed,
+    'sticky':sticky,
+    'relative':relative,
+    'absolute':absolute,
+);
+
+@each $key,$val in $position{
+        .#{$key} {
+            position: $val;
+        }
 }

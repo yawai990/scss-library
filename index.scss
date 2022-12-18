@@ -5,6 +5,8 @@
 //base & layout
 @import './scss/base';
 @import './scss/breakpoints';
+@import './scss/grid';
+@import './scss/navbar';
 
 //colors
 @import './scss/colors';
@@ -12,6 +14,7 @@
 //components(button, card, nav)
 @import './scss/components/card';
 @import './scss/components/buttons';
+@import './scss/components/badge';
 
 //utilities ( margin, padding, opactiy)
 @import './scss/utilities';
