@@ -1,0 +1,15 @@
+@use 'sass:math';
+
+//variable & functions
+@import './scss/variables';
+
+//base & layout
+@import './scss/base';
+
+//colors
+@import './scss/components/colors';
+
+//components(button, card, nav)
+@import './scss/components/card'
+
+//utilities ( margin, padding, opactiy)
