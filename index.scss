@@ -1,15 +1,17 @@
-@use 'sass:math';
-
 //variable & functions
+@import './scss/functions';
 @import './scss/variables';
 
 //base & layout
 @import './scss/base';
+@import './scss/breakpoints';
 
 //colors
-@import './scss/components/colors';
+@import './scss/colors';
 
 //components(button, card, nav)
-@import './scss/components/card'
+@import './scss/components/card';
+@import './scss/components/buttons';
 
 //utilities ( margin, padding, opactiy)
+@import './scss/utilities';
